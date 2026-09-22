@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
 
-body{
-    background-color: cadetblue;
-}
 
 :root{
     --oranzova: hsl(31, 77%, 52%);
@@ -13,13 +10,30 @@ body{
     --svetlo-seda: hsl(0, 0%, 95%);
 }
 
+body{
+    color: var(--svetlo-seda);
+}
 
 h2{
     font-family: "Big SHoulders" sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    
 }
 
 p,a{
     font-family: "Lexend Deca" sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+a{
+    padding: 1rem 0;
+    background-color: var(--svetlo-seda);
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 4rem 0;
 }
 
 
@@ -30,3 +44,12 @@ p,a{
 .suv{
     background-color: var(--svetla-cyan);
 }
+
+.luxury{
+    background-color: var(--tmava-cyan);
+}
+
+section{
+    padding: 3rem;
+}
+
