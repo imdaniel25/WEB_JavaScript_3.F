@@ -38,7 +38,7 @@ a{
 }
 
 a:hover{
-    color: var(--transparentna-biela);
+    /* color: var(--transparentna-biela); */
     border: 2px solid var(--transparentna-biela);
     
 }
@@ -59,6 +59,8 @@ a:hover{
 
 .sedans a:hover{
     background-color: var(--oranzova);
+    color: var(--transparentna-biela);
+
 }
 
 .suv a:hover{
